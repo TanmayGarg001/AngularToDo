@@ -2,7 +2,16 @@ form {
   justify-content: center;
 }
 
-input {
+input:nth-of-type(1) {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 34em;
+  padding: 1em 1em 1em 1em;
+  border: 1px solid #BDBDBD;
+  margin-right: 1.75em;
+  border-radius: 10px;
 }
 
 input::placeholder {
